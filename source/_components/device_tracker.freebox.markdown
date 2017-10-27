@@ -18,7 +18,7 @@ The `freebox` platform offers presence detection by looking at connected devices
 
 For now, the Freebox must be on the same local network as the Home Assistant installation.
 
-To get the username (aka app_id) and password (aka app_token), you need to Request authorization and Track authorization progress following this guide : https://dev.freebox.fr/sdk/os/login/. You can use [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) to easily make GET and POST requests.
+To get the username (aka app_id) and password (aka app_token), you need to [Request authorization](https://dev.freebox.fr/sdk/os/login/#request-authorization) and [Track authorization progress](https://dev.freebox.fr/sdk/os/login/#track-authorization-progress) following this [guide](https://dev.freebox.fr/sdk/os/login/). You can use [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) to easily make GET and POST requests.
 
 <p class='note'>
 Free is a generic name for different hardware routers. The platform has only been tested on a Freebox mini because it's the only model the developer owns. 
