@@ -9,7 +9,7 @@ sharing: true
 footer: true
 logo: http://www.free.fr/freebox/im/logo_free.png
 ha_category: Presence Detection
-ha_release: "0.56.x"
+ha_release: "0.56"
 ha_iot_class: "Local Polling"
 ---
 
@@ -31,7 +31,7 @@ device_tracker:
 ```
 
 <p class='note warning'>
-For now, the Freebox must be on the same local network as the Home Assistant installation.
+For now, the Freebox must be on the same local network as the Home Assistant installation. To get the username (aka app_id) and password (aka app_token), you need to Request authorization and Track authorization progress following this guide : https://dev.freebox.fr/sdk/os/login/. You can use [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) to easily make GET and POST requests.
 </p>
 
 See the [device tracker component page](/components/device_tracker/) for instructions how to configure the people to be tracked.
