@@ -16,9 +16,7 @@ ha_iot_class: "Local Polling"
 
 The `freebox` platform offers presence detection by looking at connected devices to a [Freebox](https://fr.wikipedia.org/wiki/Freebox) based router from [Free](https://www.free.fr/), which is one of the main Internet provider in France. Freebox is a generic name for different hardware routers. The platform has only been tested on a Freebox mini because it's the only model the developer owns. 
 
-For now, the Freebox must be on the same local network as the Home Assistant installation.
-
-To get the username (aka app_id) and password (aka app_token), you need to [Request authorization](https://dev.freebox.fr/sdk/os/login/#request-authorization) and [Track authorization progress](https://dev.freebox.fr/sdk/os/login/#track-authorization-progress) following this [guide](https://dev.freebox.fr/sdk/os/login/). You can use [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) to easily make GET and POST requests.
+For now, the Freebox must be on the same local network as the Home Assistant installation. To get the username (aka app_id) and password (aka app_token), you need to [Request authorization](https://dev.freebox.fr/sdk/os/login/#request-authorization) and [Track authorization progress](https://dev.freebox.fr/sdk/os/login/#track-authorization-progress) following this [guide](https://dev.freebox.fr/sdk/os/login/). You can use [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) to easily make GET and POST requests.
 
 To use an Freebox router in your installation, add the following to your `configuration.yaml` file:
 
