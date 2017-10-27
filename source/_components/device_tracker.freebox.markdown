@@ -9,7 +9,7 @@ sharing: true
 footer: true
 logo: http://www.free.fr/freebox/im/logo_free.png
 ha_category: Presence Detection
-ha_release: "0.56"
+ha_release: "?"
 ha_iot_class: "Local Polling"
 ---
 
