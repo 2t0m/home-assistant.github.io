@@ -24,6 +24,7 @@ To use a Freebox router in your installation, add the following to your `configu
 # Example configuration.yaml entry
 device_tracker:
   - platform: freebox
+    host: https://xyz.tk
     username: fr.freebox.testapp
     password: bi9dpCD4v75mtX7HTGFxPeATc0kYWe0+aHfdBDx3wiEYEtULZ3kRKwdjvJHYDFGAT
 ```
