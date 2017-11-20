@@ -38,7 +38,7 @@ device_tracker:
 Configuration variables:
 
 - **host** (*Required*): The external address of your router with a valid SSL certificate.
-- **username** (*Required*): The `app_id` to login into the router (follow the above guide).
+- **username** (*Required*): The `app_id` to login into the router.
 - **password** (*Required*): The `app_token` for the specified `app_id`.
 
 See the [device tracker component page](/components/device_tracker/) for instructions how to configure the people to be tracked.
